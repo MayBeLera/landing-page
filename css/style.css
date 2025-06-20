@@ -45,7 +45,7 @@ body{
     border-radius: 100px;
     width: 22px;
     height: 2px;
-    background: #028ECE;
+    background: #04202d;
     transition: all .3s;
 }
 .burger-icon span:first-child{
