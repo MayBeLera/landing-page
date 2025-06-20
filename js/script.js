@@ -1,3 +1,4 @@
+// burger-menu
 document.addEventListener('click', burgerInit);
 
 function burgerInit(e){
@@ -13,3 +14,14 @@ function burgerInit(e){
         document.body.classList.remove('body--opened-menu')
     }
 }
+
+// count
+const counters = document.querySelectorAll('.number');
+const speed = 200;
+
+counters.forEach((counter) => {
+    const updateCount = () => {
+        const target = parseInt(counter.getAttribute('data-target'));
+        
+    }
+})
